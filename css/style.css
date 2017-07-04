@@ -1,0 +1,249 @@
+.arrow{
+	width: 60px;
+	height: auto;
+}
+
+.container-arrow{
+	margin-top: -60px;
+}
+
+.navbar{
+	border:0;
+	background-color: rgba(255,255,255,0.8);
+	min-height: 100px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+	background-color: #cc3366;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background-color: #cc3366;
+	color: #fff;
+}
+
+.navbar .container{
+	margin-top: 26px;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #cc3366;
+}
+
+.navbar-default .navbar-toggle{
+	border: 0;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #cc3366;
+}
+
+.jumbotron{
+	background-image: url(../img/jumbotron.png);
+	background-size: cover;
+	background-position: right;
+	height: 700px;
+	background-attachment: fixed;
+}
+
+.jumbotron .container{
+	margin-top: 215px;
+}
+
+#paragrafo{
+	color: white;
+	padding: 150px;
+}
+
+#paragrafo h2{
+	margin-top: 80px;
+}
+
+.foto-vino{
+	height: auto !important;
+}
+
+.btn-primary{
+	background-color: #cc3366;
+	border: 0;
+}
+
+.btn-primary:hover{
+	background-color: #e85c8b;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover{
+	background-color: #9e2c52;
+}
+
+.btn-primary:active{
+	background-color: #9e2c52;
+}
+
+.btn-primary.focus, .btn-primary:focus{
+	background-color: #9e2c52;
+}
+
+a{
+	color: #cc3366;
+}
+
+a:focus, a:hover{
+	color: #9e2c52;
+}
+
+#about-container{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#about{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#about h2{
+	margin-bottom: -50px;
+}
+
+hr{
+	border-top: 1px solid #cc3366;
+}
+
+#sezione1{
+	margin-top: 60px;
+	background-color: #cc3366;
+}
+
+#foto-sezione1{
+	background-image: url(../img/foto-sezione1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	height: 600px;
+}
+
+#lista-vini{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+h3{
+	color: #cc3366;
+}
+
+#contact{
+	height: 300px;
+	background-image: url(../img/contact.png);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#contact h2{
+	margin-bottom: 40px;
+	color: #fff;
+}
+
+#contact p{
+	margin-top: 10px;
+	color: #ccc;
+	margin-bottom: -10px;
+}
+
+.subtitle{
+	margin-bottom: -10px;
+}
+
+.form-group{
+	margin-right: 10px;
+}
+
+#footer{
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.fa{
+	margin-right: 10px;
+}
+
+#footer .nav{
+	margin-bottom: 20px;
+}
+
+#page_contact{
+	height: 78vh;
+	background-color: #9e2c52;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.thumbnail{
+	height: 590px;
+}
+
+#contenitore_lista{
+	background-color: #9e2c52;
+	padding-top: 50px; 
+	padding-bottom: 50px; 
+}
+
+.img-circle{
+	width:100px; 
+	height: auto; 
+	margin-top:-50px; 
+}
+
+.img-face{
+	box-shadow: 0 5px 30px #ccc;
+}
+
+#page_contact .btn-primary{
+	background-color: #fff;
+	color: #9e2c52;
+}
+
+@media screen and (max-width: 990px){
+	#foto-sezione1{
+		height: 0;
+		background-image: none;
+	}
+
+	#contact{
+		height: 390px;
+	}
+
+	#paragrafo{
+		padding: 50px;
+	}
+
+	#paragrafo h2{
+		margin-top: 10px;
+	}
+
+	.jumbotron{
+		background-position: right;
+		background-attachment: scroll; 
+	}
+}
+
+@media screen and (max-width: 768px){
+	.jumbotron{
+		background-position: center;
+		background-size: 290%; 
+	}
+
+	#page_contact{
+		height: auto;
+		background-color: #9e2c52;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+}
+
+
+
+
